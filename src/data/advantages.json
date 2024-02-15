@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "title":"Innovative Booking Experience",
+        "description":"With our smart and intuitive platform, we've redefined the way you book hotels. Get personalized suggestions and secure the perfect stay in just a few clicks.",
+        "image":"idea.png"
+    },
+
+    {
+        "id": 2,
+        "title":"Uncompromising Security",
+        "description":"Your privacy and security are our top priorities. Our robust security protocols ensure your personal details and transactions are always protected.",
+        "image":"lock.png"
+    },
+    
+    {
+        "id": 3,
+        "title":"Feels Like Home",
+        "description":"We strive to provide you with a comfortable and homely stay. Our selected hotels ensure top-notch service and amenities, turning any destination into a home away from home.",
+        "image":"house.png"
+    },
+
+    {
+        "id": 4,
+        "title":"24/7 Customer Support",
+        "description":"Experience seamless support around the clock. Our dedicated team is always ready to assist you, ensuring your booking process is smooth and any concerns are promptly addressed.",
+        "image":"support.png"
+    }
+]

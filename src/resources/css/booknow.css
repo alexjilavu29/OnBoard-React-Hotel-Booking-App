@@ -1,0 +1,215 @@
+.booknow{
+    width: 100%;
+    height: 650px;
+    margin-top: 10px;
+    margin-bottom: 160px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.invalid{
+    border:1px solid red;
+}
+
+.divbooknow{
+    width: 1200px;
+    height: 650px;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.801);
+    
+}
+
+.divform{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   align-items: center;
+   width: 1200px;
+   height: 650px;
+}
+
+.divfirst{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.divfirstform{
+    width: 400px;
+    height: 520px;
+    background-color: rgba(0, 25, 41, 0.8);
+    padding: 40px;
+    backdrop-filter: blur(5px);
+    
+}
+
+.divfirstform>h2{
+    color:white;
+    text-align: left;
+    opacity: 100%;
+    margin-bottom: 12px;
+    margin-top:15px
+    /* padding-top: 5px; */
+}
+
+
+
+.divfirstform>label{
+    color:rgba(255, 255, 255, 0.753);
+}
+
+#guestname{
+    width:100%;
+    height: 40px;
+    border-radius: 10px 10px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: "Roboto",sans-serif;
+    font-weight: lighter;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+#hotelselect{
+    
+    width: 100%;
+    height: 35px;
+    border-radius: 10px 10px;
+    padding-left: 10px;
+    font-size: 18px;
+    font-family: "Roboto",sans-serif;
+    font-weight: lighter;
+    margin-top: 3px;
+    margin-bottom: 20px;
+}
+
+
+.divresdetails{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    height: 80px;
+}
+
+.divresdetails>div>label{
+    color:rgba(255, 255, 255, 0.753);
+}
+
+#checkin{
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    width:90%;
+    height: 40px;
+    border: 1px solid rgb(8, 7, 59);
+    font-family: "Roboto",sans-serif;
+    border-radius: 10px 10px;
+    margin-top: 3px;
+}
+
+#nightsselect{
+    text-align: center;
+    width:70px;
+    height: 40px;
+    border-radius: 10px 10px;
+    font-size: 18px;
+    margin-top: 3px;
+}
+
+
+.custom-range {
+    margin-top: 15px;
+    appearance: none; 
+    outline: none; 
+    width: 100%; 
+    height: 8px; 
+    background-color: white; 
+    border-radius: 10px 10px; 
+    
+  }
+  
+  .custom-range::-webkit-slider-thumb {
+    -webkit-appearance: none; 
+    cursor: pointer; 
+    width: 20px; 
+    height: 20px; 
+    background-color: rgb(219, 176, 4); 
+    border-radius: 50%; 
+    
+  }
+  
+#breakfast{
+    margin-top: 25px;
+    margin-left: 35px;
+}
+  
+
+
+
+
+
+
+
+
+.divsecond{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 100px;
+    
+}
+
+.divsecondform{
+    width:400px;
+    height: 310px;
+    max-width: 400px;
+    max-height: 310px;
+    background-color: rgb(219, 176, 4); 
+    padding: 45px;
+}
+
+.divsecondform>h2{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.divsecondform>h3{
+    padding-left: 20px;
+    opacity: 80%;
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+
+.divsecondform>ul{
+    padding-left: 55px;
+    margin-top: 5px;
+}
+
+.divsecondform>ul>li{    
+    list-style-type:none;
+}
+
+.divsecondform>ul>li:before{    
+    content: "→ ";
+}
+
+.formsubmit{
+    background-color: rgb(219, 176, 4);
+	border-radius:6px;
+	cursor:pointer;
+	font-family:"Roboto",sans-serif;;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 45px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+.formsubmit:hover {
+	background-color:rgba(0, 25, 41,0.9);
+    color: white;
+
+}

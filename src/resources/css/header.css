@@ -1,0 +1,75 @@
+header {
+    background-color: rgba(0, 25, 41, 0.8);  
+    max-height: 100px;
+    grid-template-columns: 0.4fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+
+.logo{
+    display: flex;
+    max-height: 100px;
+}
+
+.headerFixed{
+    position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+  backdrop-filter: blur(5px);
+}
+
+.headerimage{
+    object-fit: contain;
+    padding:10px;
+    cursor: pointer;
+    max-width: 200px;
+    max-height: 100%;
+    z-index: 4;
+    align-items: left;
+}
+
+
+.navlist{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.buttondiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.buttondiv:hover{
+    cursor: pointer;
+    background-color: rgb(10, 31, 46);
+    transition: all 0.15s ease;
+}
+
+.buttona{
+    text-decoration: none;
+    color:white;
+    font-size: x-large;
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;  
+}
+
+.booknowbuttondiv{
+    background-color: rgba(0, 24, 39, 0.85);  
+}
+
+.booknowbutton{
+    font-size: 30px;
+}
+
+.booknowbuttondiv:hover{
+    background-color: rgb(219, 176, 4);  
+}

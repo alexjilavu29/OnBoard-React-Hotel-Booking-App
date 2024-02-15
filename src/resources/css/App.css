@@ -1,0 +1,57 @@
+.flex {
+  display: flex;
+}
+
+.grid{
+  display: grid;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family:"Roboto",sans-serif;
+  margin:0px;
+}
+
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 24, 39, 1);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(0, 14, 22);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 24, 39, 1) #ffffff;
+}
+
+.sectiontitle{
+  width: 100%;
+  padding-left: 200px;
+  padding-top: 100px;
+}
+
+.sectiontitle>div>h1{
+  color:rgba(0, 24, 39);
+  font-size: 36px;
+  margin-bottom: 0;
+}
+
+.sectiontitle>div>p{
+  color:rgba(0, 24, 39,0.85);
+  font-size: 14px;
+  padding-left: 30px;
+  margin-top: 5px;
+}

@@ -1,0 +1,50 @@
+[
+    {
+        "id":1,
+        "name": "White Horse Dubai",
+        "image":"whitehorse.jpg",
+        "rating":4,
+        "price":200,
+        "breakfast":20
+    },
+    {
+        "id":2,
+        "name": "Golden Ring Greece",
+        "image":"goldenring.jpg",
+        "rating":5,
+        "price":150,
+        "breakfast":10
+    },
+    {
+        "id":3,
+        "name": "Continental Las Vegas",
+        "image":"continental.jpg",
+        "rating":4,
+        "price":250,
+        "breakfast":25
+    },
+    {
+        "id":4,
+        "name": "Stars Resort Italy",
+        "image":"starsresort.jpg",
+        "rating":5,
+        "price":130,
+        "breakfast":10
+    },
+    {
+        "id":5,
+        "name": "Blue Tower Miami",
+        "image":"bluetower.jpg",
+        "rating":3,
+        "price":200,
+        "breakfast":15
+    },
+    {
+        "id":6,
+        "name": "Grand Hotel San Francisco",
+        "image":"grandhotel.jpg",
+        "rating":5,
+        "price":220,
+        "breakfast":20
+    }
+]

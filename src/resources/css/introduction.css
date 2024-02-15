@@ -1,0 +1,53 @@
+.introduction{
+    display: flex;
+    position: relative;
+}
+
+.image{
+    object-fit:cover;
+    max-height: 700px;
+    filter:brightness(60%);
+}
+
+
+.introduction h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;  
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 55px;
+    text-align: center;
+    
+}
+
+
+
+.introductionbutton{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius:100px;
+    background-color: rgba(0,31,51,0.3);
+    width:450px;
+    height: 70px;
+    color: rgba(255, 255, 255, 0.9);
+    font-family:"Roboto",sans-serif;
+    font-size: 30px;
+
+    border:1px solid rgb(219, 176, 4,0.7);
+    transition: background-color .15s;
+
+}
+
+.introductionbutton:hover{
+    cursor: pointer;
+    background-color: rgb(219, 176, 4);
+    border:rgb(219, 176, 4);
+    color: rgba(255, 255, 255);
+   
+}
+
+

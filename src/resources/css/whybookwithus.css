@@ -1,0 +1,61 @@
+.whybookwithus{
+    padding-top: 10px;
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+}
+
+.advantagecard{
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 1fr;
+    max-height: 700px;
+    max-width: 280px;
+    width: 240px;
+    background-color: rgba(0, 25, 41, 1);
+    border-radius: 40px 40px;
+    padding: 10px;
+    border: 2px solid rgb(219, 176, 4);
+    box-shadow: inset 23px 42px 31px -12px rgba(204, 208, 227, 0.315); 
+}
+
+.gridadvantages{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr;
+    grid-gap:50px;
+}
+
+.advantagedata>h2{
+    text-align: center;
+    color:white;
+    
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.advantagedata>p{
+    text-align: center;
+    color:rgba(255, 255, 255, 0.808);
+    
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.advantageimage{
+    filter: invert();
+}
+
+.advantageimagediv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid rgb(219, 176, 4);
+    border-radius: 45%;
+    background-color: rgb(219, 176, 4, 1);
+    box-shadow: 11px 10px 28px -10px rgba(138, 138, 138, 0.63);
+}
