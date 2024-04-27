@@ -1,3 +1,36 @@
+# OnBoard - Holiday Booking Platform
+
+## About
+
+OnBoard is an online holiday booking platform that offers an easy and enjoyable experience for users. With a user-friendly interface and a diverse selection of destinations, OnBoard is the ideal solution for planning your travels.
+
+## Features
+
+- **Image Carousel**: Presentation of popular destinations and hotels.
+- **Hotel Selection**: Users can choose from various available hotels.
+- **Booking Details**: Allows the selection of check-in date, number of nights, number of guests, and breakfast options.
+- **Total Price Calculation**: The total price of the stay is automatically calculated based on user selections.
+
+## Technologies Used
+
+- **React**: For the user interface.
+- **CSS**: For styling the application.
+- **JSON**: For storing hotel data and benefits.
+
+## How to Use
+
+Clone the repository, install the necessary dependencies, and run the application in development mode to see the platform in action.
+
+## Contributions
+
+Contributions are welcome! If you have suggestions for improvement or want to add new features, do not hesitate to open a pull request or create an issue.
+
+
+### Romanian Translation Below
+---
+
+
+
 # OnBoard - Platforma de Rezervare Vacanțe
 
 ## Despre
